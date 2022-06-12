@@ -1,0 +1,9 @@
+一、Software running platform: TensorFlow-gpu 2.2.0
+二、Software Description:
+     (1) datasets folder：contains Chinese scoring dataset and Chinese word embedding matrix crawl-300d-2M.vec
+     (3) DataProcess.py: Chinese data preprocessing
+     (4) Fuction.py: read word embedding matrix
+     (5) model.py: the main model
+     (6) Paraments.py: hyperparameter settings
+     (7) Bi_Attention.py: semantic interaction of ESIM network
+三、Software running: Chinese scoring and English scoring use the same model and start from file Score.py
